@@ -1,0 +1,23 @@
+{
+  "name": "jenkins_git_clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanket27-code/jenkins_git_clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanket27-code/jenkins_git_clone/issues"
+  },
+  "homepage": "https://github.com/sanket27-code/jenkins_git_clone#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
