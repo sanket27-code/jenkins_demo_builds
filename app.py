@@ -1,2 +1,13 @@
-for i in range(1,10):
-  print(i)
+from flask import Flask
+from markupsafe import Markup
+from flask import render_template
+
+app = Flask(__name__)
+
+@app.route("/")
+def hello_world():
+    return "<p>Hello, World!</p>"
+
+@app.route('/<name>')
+def hello(name=None):
+    return render_template('hello.html', name=name)
