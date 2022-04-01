@@ -8,7 +8,7 @@ app.get('/about', (req,res)=>{
     res.send('Hey, this is me, Sanket! Learning jenkins');
 })
 app.get('/:name', (req,res)=>{
-    res.send(`Hello, ${req.params.name}`);
+    res.send(`Hello, ${req.params.name}! Do you know about Bhai Lang?`);
 })
 
 app.listen('50505', ()=>{
